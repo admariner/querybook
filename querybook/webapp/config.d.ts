@@ -121,6 +121,8 @@ declare module 'config/querybook_public_config.yaml' {
             enabled: boolean;
             sample_rates: Array<number>;
             default_sample_rate: number;
+            sample_user_guide_link: string;
+            sampling_tool_tip_delay: number;
         };
     };
     export default data;
